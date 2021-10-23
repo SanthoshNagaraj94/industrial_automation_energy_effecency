@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEATTING LOAD/COOLING LOAD</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <h1>RESULT OF HEATTING LOAD/COOLING LOAD PREDICTION </h1>
+    <form style="height:20mm; width:200mm">
+        <h1 style="text-align: center;">
+           HEATTING LOAD : {{  '%0.2f' % value[0][0]|float}} KWh/&#13217<br>
+
+           COOLING LOAD      :  {{  '%0.2f' % value[0][1]|float}} KWh/&#13217
+        </h1>   
+       </form>
+       <br>
+       <br>
+       <br>
+      
+
+       }
+    <img style="padding-left: 90mm;" src="https://www.stulz.de/fileadmin/user_upload/STULZ_Custom_Indoor_AHU_room_loop_1_6.gif" >
+
+        
+    
+  
+</body>
+
+</html>
