@@ -20,14 +20,14 @@ def result():
     if request.method=="POST":
         req=request.form
 
-        X1 = float(req["X1"])
-        X2 = float(req["X2"])
-        X3 = float(req["X3"])
-        X4 = float(req["X4"])
-        X5 = float(req["X5"])
-        X6 = float(req["X6"])
-        X7 = float(req["X7"])
-        X8 = float(req["X8"])
+        X1 = float(req.get("X1"))
+        X2 = float(req.get("X2"))
+        X3 = float(req.get("X3"))
+        X4 = float(req.get("X4"))
+        X5 = float(req.get("X5"))
+        X6 = float(req.get("X6"))
+        X7 = float(req.get("X7"))
+        X8 = float(req.get("X8"))
         x=[[X1,X2,X3,X4,X5,X6,X7,X8]]
 
         X_scale=scale.transform(x)
