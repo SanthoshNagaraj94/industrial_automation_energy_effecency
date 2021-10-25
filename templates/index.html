@@ -9,51 +9,44 @@
 </head>
 <body>
     <h1>WELCOME TO HEATTING LOAD/COOLING LOAD PREDICTION APP</h1>
-    <img style="padding-left: 100mm;" src="https://www.stulz.de/fileadmin/user_upload/STULZ_Custom_Indoor_AHU_room_loop_1_6.gif" >
-    <h2>PLEASE ENTER THE PARAMETERS TO PREDIT THE LOAD
+   
+    <h2 style="text-align: center;">PLEASE ENTER THE PARAMETERS TO PREDIT THE LOAD
 
     </h2>
     <form action="/result" method="post">
     
-        
-        <label style="margin-left: 0.4cm" for="X1">Relative compactness</label><br>
-        <input type="number"  name="X1" step="0.01"  required ><br><br>
+        <input type="number"  name="X1" step="0.01"  required  placeholder="Relative compactness"><br><br>
 
-        <label style="margin-left: 1cm"  for="X1">Surface area in &#13217</label><br>
-        <input type="number" name="X2" step="0.01" required ><br><br>
+        <input type="number" name="X2" step="0.01" required placeholder="Surface area in &#13217" ><br><br>
+    
+        <input type="number"   name="X3" step="0.01" required placeholder="Wall area in &#13217"><br><br>
 
-        <label style="margin-left: 1.5cm" for="X1">Wall area in &#13217 </label><br>       
-        <input type="number"   name="X3" step="0.01" required><br><br>
+ 
+        <input type="number"  name="X4" step="0.01" required placeholder="Roof area in &#13217"><br><br>
 
-        <label style="margin-left: 1.5cm" for="X1">Roof area in &#13217 </label><br>
-        <input type="number"  name="X4" step="0.01" required><br><br>
+     
+        <input type="number"   name="X5" step="0.01" required placeholder="Roof area in &#13217"><br><br>
 
-        <label style="margin-left: 1cm" for="X1">Overall height in &#13217</label><br>
-        <input type="number"   name="X5" step="0.01" required ><br><br>
 
-        <label style="margin-left: 2cm" for="X1">Orientation  </label><br>
-        <input type="number"  name="X6" step="0.01" required><br><br>
+        <input type="number"  name="X6" step="0.01" required placeholder="Orientation"><br><br>
 
-        <label style="margin-left: 1cm" for="X1">Glazing area in &#13217</label><br>
-        <input type="number"  name="X7" step="0.01" required><br><br>
+      
+        <input type="number"  name="X7" step="0.01" required placeholder="Glazing area in &#13217"><br><br>
 
-        <label  for="X1">Glazing area distribution</label><br>
-        <input type="number"  name="X8" step="0.01" required><br><br>
-        <br><br>
+
+        <input type="number"  name="X8" step="0.01" required placeholder="Glazing area distribution"><br><br>
+        <br>
                 
-        <input  style="height:15mm; width:50mm" type="submit" value="PREDICT">
+        <input  style="height:15mm; width:83mm" type="submit" value="PREDICT">
+        
             
       
             
     </form >
-    
-             <form style="height:20mm; width:200mm">
-        <h1 style="text-align: center;">
-           
-            PROJECT CONTRUBUTION BY: SANTHOSH AND SATHISH
-           
-        </h1>   
-       </form>
+    <br>
+    <br>
+    <h4>PROJECT CONTRIBUTED BY : SANTHOSH AND SATHISH</h4>
+        
     
   
 </body>

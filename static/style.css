@@ -1,26 +1,29 @@
 h1{
     text-align: center;
-    color: rgb(238, 238, 238);
-    font-size: 10mm;
+    color: rgb(7, 2, 77);
+    font-size: 8mm;
     font-weight: bolder;
-    background-color: rgb(27, 27, 27);
-    border-color: rgb(165, 162, 161);
-    border-radius: 30px;
-    border-width: 15px;
-    box-shadow: rgb(171, 171, 172);
-    border-style:groove;
-    padding: 0.3cm;
-
+    background-color: #fff;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+    border-style:inherit;
+    padding: 0.5cm;
+    
+  
+   
+    
+    
+    
     align-content: center;
     
 }
 
-h2{
-    opacity: 0.5;
+h3{
+    opacity: 0.8;
     
     text-align: center;
     color: rgb(240, 235, 235);
-    font-size: 10mm;
+    font-size: 6mm;
     font-weight: bolder;
     background-color: rgb(0, 0, 0);
     border-color: rgb(165, 162, 161);
@@ -28,27 +31,21 @@ h2{
     border-width: 10px;
     box-shadow: rgb(171, 171, 172);
     border-style: groove;
-    padding: 0.3cm;
+    
    
     align-content: center;
-    
-
-    
-
-    
+   
     
 }
 
 img {
-        margin: auto;
+    
+        margin-left: 6cm;
         align-items: center;
+              
+        width: 20cm;
         
-
-        
-        padding-top: 1cm;
-        padding-bottom: 5cm;
-
-      }
+             }
 
 
     
@@ -72,10 +69,8 @@ input
     border-style: groove;
     text-align: center;
     height: 0.7cm;
-    width: 5cm;
-
-
-    
+    width: 8cm;
+   
 }
 
 label
@@ -108,22 +103,30 @@ label
   
   .btn:hover {opacity: 1}
 body {
-    padding-bottom: 3cm;
+  
     background-color: #fff;
-    -webkit-animation: random 5s infinite;
-    animation: random 5s infinite;
+   
 
     
 }
 @keyframes  random {
    
-   1% { background-color: rgb(248, 206, 206); } 
-   30% { background-color: rgb(219, 233, 175); } 
-   45% { background-color: rgb(211, 243, 238); } 
-   60% { background-color: rgb(219, 219, 245); }
+   1% { background-color: rgb(250, 146, 146); } 
+   30% { background-color: rgb(204, 248, 61); } 
+   45% { background-color: rgb(139, 248, 232); } 
+   60% { background-color: rgb(145, 145, 255); }
    75% { background-color: rgb(255, 255, 255); } 
   
     
    
 }
 
+h4
+{
+    text-align: center;
+    background-color: #fff;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+    padding: 0.8cm;
+   
+}
